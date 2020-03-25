@@ -1,7 +1,7 @@
 <h1>task新規登録ページ</h1>
 
 <%= form_with(model: @task, local: true) do |f| %>
-  <%= f.label :content, 'メッセージ' %>
+  <%= f.label :content, 'task' %>
   <%= f.text_field :content %>
 
   <%= f.submit 'taskに追加' %>
